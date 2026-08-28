@@ -1,0 +1,26 @@
+@"
+# Real dataset - not pushed due to size and license reasons
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# YOLO raw source and excluded classes
+yolo_source/
+excluded_classes/
+
+# Large transfer-learning models (not used for deployment)
+models/mobilenetv2_best.keras
+models/efficientnetb0_best.keras
+models/history/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
