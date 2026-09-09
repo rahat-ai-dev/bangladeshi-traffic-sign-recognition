@@ -1,33 +1,33 @@
                           precision    recall  f1-score   support
 
               Crossroads       1.00      1.00      1.00        96
-      Emergency_Stopping       0.99      1.00      0.99        93
+      Emergency_Stopping       1.00      1.00      1.00        93
  Emergency_Stopping_250m       1.00      1.00      1.00        27
                 Give_Way       1.00      0.96      0.98        28
-       Height_Limit_5.7m       0.99      0.99      0.99       143
-          Junction_Ahead       1.00      1.00      1.00         8
+       Height_Limit_5.7m       0.99      1.00      1.00       143
+          Junction_Ahead       0.73      1.00      0.84         8
             Mosque_Ahead       1.00      1.00      1.00        89
            No_Overtaking       1.00      1.00      1.00        81
           No_Pedestrians       1.00      1.00      1.00        13
-        No_Vehicle_Entry       1.00      1.00      1.00        28
-    Pedestrians_Crossing       1.00      1.00      1.00        96
+        No_Vehicle_Entry       0.97      1.00      0.98        28
+    Pedestrians_Crossing       1.00      0.99      0.99        96
        Petrol_Pump_Ahead       1.00      1.00      1.00        94
-            School_Ahead       1.00      0.98      0.99        42
+            School_Ahead       1.00      1.00      1.00        42
          Sharp_Left_Turn       1.00      1.00      1.00        49
-        Sharp_Right_Turn       1.00      0.98      0.99        55
-       Side_Road_On_Left       0.99      1.00      1.00       129
-      Side_Road_On_Right       1.00      0.99      1.00       167
+        Sharp_Right_Turn       0.98      1.00      0.99        55
+       Side_Road_On_Left       0.99      0.99      0.99       129
+      Side_Road_On_Right       1.00      0.98      0.99       167
            Speed_Breaker       1.00      1.00      1.00        63
        Speed_Limit_20_km       1.00      1.00      1.00        11
         Speed_Limit_40Km       1.00      1.00      1.00        85
-        Speed_Limit_80Km       0.99      1.00      0.99        70
+        Speed_Limit_80Km       1.00      0.99      0.99        70
         Tolls_1_km_Ahead       1.00      1.00      1.00        11
-             Tolls_Ahead       0.90      1.00      0.95         9
+             Tolls_Ahead       1.00      1.00      1.00         9
 Traffic_Merges_From_Left       1.00      1.00      1.00        21
               Truck_Lane       1.00      1.00      1.00        15
                   U_Turn       1.00      1.00      1.00        12
          Underpass_Ahead       1.00      1.00      1.00        28
 
                 accuracy                           1.00      1563
-               macro avg       0.99      1.00      1.00      1563
+               macro avg       0.99      1.00      0.99      1563
             weighted avg       1.00      1.00      1.00      1563
