@@ -1,7 +1,7 @@
 {
   "model": "best_model",
-  "accuracy": 0.9968010236724248,
-  "precision_weighted": 0.9968857422345533,
-  "recall_weighted": 0.9968010236724248,
-  "f1_weighted": 0.9968095089728376
+  "accuracy": 0.9955214331413947,
+  "precision_weighted": 0.9960828318388382,
+  "recall_weighted": 0.9955214331413947,
+  "f1_weighted": 0.9956640817026664
 }
