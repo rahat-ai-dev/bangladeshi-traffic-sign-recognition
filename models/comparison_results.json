@@ -1,8 +1,8 @@
 {
   "results": {
-    "custom_cnn": 0.9986910820007324,
-    "mobilenetv2": 0.9253926873207092,
-    "efficientnetb0": 0.9718586206436157
+    "custom_cnn": 0.9993455410003662,
+    "mobilenetv2": 0.9208115339279175,
+    "efficientnetb0": 0.9692408442497253
   },
   "best_model": "custom_cnn"
 }
