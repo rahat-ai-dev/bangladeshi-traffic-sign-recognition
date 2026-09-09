@@ -1,5 +1,11 @@
 # 🚦 Bangladeshi Traffic Sign Classification
 
+[![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bangladeshi-traffic-sign-recognition-lxhwp9ccbiyoeemnnnz73j.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/rahat-ai-dev/bangladeshi-traffic-sign-recognition)
+
+🔗 **Live App:** [bangladeshi-traffic-sign-recognition.streamlit.app](https://bangladeshi-traffic-sign-recognition-lxhwp9ccbiyoeemnnnz73j.streamlit.app/)
+📂 **GitHub Repository:** [github.com/rahat-ai-dev/bangladeshi-traffic-sign-recognition](https://github.com/rahat-ai-dev/bangladeshi-traffic-sign-recognition)
+
 An end-to-end deep learning project that classifies **real photographs of Bangladeshi traffic signs**
 into categories such as Stop, No Entry, Speed Limit, Turn Left, Turn Right, and Pedestrian Crossing,
 using a custom CNN and transfer learning (MobileNetV2, EfficientNetB0), with a Streamlit web app for
@@ -124,8 +130,9 @@ bd-traffic-sign-classifier/
 ## 5. Installation
 
 ```bash
-# 1. Clone / unzip the project, then move into it
-cd bd-traffic-sign-classifier
+# 1. Clone the repository
+git clone https://github.com/rahat-ai-dev/bangladeshi-traffic-sign-recognition.git
+cd bangladeshi-traffic-sign-recognition
 
 # 2. Create a virtual environment (recommended)
 python -m venv venv
@@ -182,6 +189,10 @@ python -m src.predict path/to/photo.jpg
 
 ## 7. How to Run the Streamlit App
 
+**Try it live — no installation needed:**
+👉 [https://bangladeshi-traffic-sign-recognition-lxhwp9ccbiyoeemnnnz73j.streamlit.app/](https://bangladeshi-traffic-sign-recognition-lxhwp9ccbiyoeemnnnz73j.streamlit.app/)
+
+**Or run it locally:**
 ```bash
 streamlit run app.py
 ```
@@ -266,3 +277,10 @@ Plots saved automatically:
   if you have a GPU and want higher accuracy.
 - Grad-CAM layer names in `config.GRADCAM_LAYER_NAMES` assume standard MobileNetV2/EfficientNetB0
   layer names — if you modify those architectures, update the layer name there too.
+
+---
+
+## 13. Links
+
+- 🔗 **Live Demo:** [bangladeshi-traffic-sign-recognition-lxhwp9ccbiyoeemnnnz73j.streamlit.app](https://bangladeshi-traffic-sign-recognition-lxhwp9ccbiyoeemnnnz73j.streamlit.app/)
+- 📂 **Source Code:** [github.com/rahat-ai-dev/bangladeshi-traffic-sign-recognition](https://github.com/rahat-ai-dev/bangladeshi-traffic-sign-recognition)
