@@ -18,6 +18,7 @@ How it works (short version):
 
 import numpy as np
 import tensorflow as tf
+import matplotlib  
 import matplotlib.cm as cm
 
 
