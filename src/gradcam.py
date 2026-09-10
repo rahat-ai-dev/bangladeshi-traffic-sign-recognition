@@ -63,7 +63,7 @@ def overlay_heatmap(original_img, heatmap, alpha=0.4):
         original_img = (original_img * 255).astype(np.uint8)
 
     heatmap_uint8 = np.uint8(255 * heatmap)
-    jet = cm.get_cmap("jet")
+    jet = matplotlib.colormaps["jet"]
     jet_colors = jet(np.arange(256))[:, :3]
     jet_heatmap = jet_colors[heatmap_uint8]
 
